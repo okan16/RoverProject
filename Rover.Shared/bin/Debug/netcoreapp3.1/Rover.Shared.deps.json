@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rover.Shared/1.0.0": {
+        "dependencies": {
+          "Rover.Core": "1.0.0"
+        },
+        "runtime": {
+          "Rover.Shared.dll": {}
+        }
+      },
+      "Rover.Core/1.0.0": {
+        "runtime": {
+          "Rover.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rover.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rover.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rover.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Rover.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rover.Core.dll": {}
+        }
+      },
+      "Rover.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Rover.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rover.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rover.Service.dll": {}
+        }
+      },
+      "Rover.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Rover.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rover.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rover.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rover.Core/1.0.0": {
+      "type": "project",
+      "path": "../Rover.Core/Rover.Core.csproj",
+      "msbuildProject": "../Rover.Core/Rover.Core.csproj"
+    },
+    "Rover.Service/1.0.0": {
+      "type": "project",
+      "path": "../Rover.Service/Rover.Service.csproj",
+      "msbuildProject": "../Rover.Service/Rover.Service.csproj"
+    },
+    "Rover.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Rover.Shared/Rover.Shared.csproj",
+      "msbuildProject": "../Rover.Shared/Rover.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Rover.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/egitimpc/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/egitimpc/Desktop/RoverProject/Rover.Console/Rover.App/Rover.App.csproj",
+      "projectName": "Rover.App",
+      "projectPath": "/Users/egitimpc/Desktop/RoverProject/Rover.Console/Rover.App/Rover.App.csproj",
+      "packagesPath": "/Users/egitimpc/.nuget/packages/",
+      "outputPath": "/Users/egitimpc/Desktop/RoverProject/Rover.Console/Rover.App/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/egitimpc/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "/Users/egitimpc/Desktop/RoverProject/Rover.Console/Rover.Service/Rover.Service.csproj": {
+              "projectPath": "/Users/egitimpc/Desktop/RoverProject/Rover.Console/Rover.Service/Rover.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/egitimpc/.dotnet/store/|arch|/|tfm|",
+      "/Users/egitimpc/.nuget/packages"
+    ]
+  }
+}
